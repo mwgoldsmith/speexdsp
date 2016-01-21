@@ -34,3 +34,5 @@ libtool
 speexdsp.pc
 stamp-*
 patches
+.vs/
+*.opendb
