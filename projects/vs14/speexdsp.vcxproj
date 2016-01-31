@@ -196,7 +196,8 @@
       <ProgramDataBaseFileName>$(OutDir)..\..\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDataBaseFileName>
       <PreprocessorDefinitions>HAVE_CONFIG_H;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\..\include;$(OutDir)..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <BrowseInformationFile>$(IntDir)bsc/</BrowseInformationFile>
+      <BrowseInformationFile>$(IntDir)bsc\</BrowseInformationFile>
+      <BrowseInformation>true</BrowseInformation>
     </ClCompile>
     <Lib>
       <TargetMachine>MachineX86</TargetMachine>
@@ -259,7 +260,8 @@ ENDLOCAL
       <PreprocessorDefinitions>HAVE_CONFIG_H;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\..\include;$(OutDir)..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(OutDir)..\..\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDataBaseFileName>
-      <BrowseInformationFile>$(IntDir)bsc/</BrowseInformationFile>
+      <BrowseInformationFile>$(IntDir)bsc\</BrowseInformationFile>
+      <BrowseInformation>true</BrowseInformation>
     </ClCompile>
     <Lib>
       <SubSystem>Windows</SubSystem>
@@ -323,7 +325,8 @@ ENDLOCAL
       <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\..\include;$(OutDir)..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(OutDir)..\..\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDataBaseFileName>
       <PreprocessorDefinitions>HAVE_CONFIG_H;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <BrowseInformationFile>$(IntDir)bsc/</BrowseInformationFile>
+      <BrowseInformationFile>$(IntDir)bsc\</BrowseInformationFile>
+      <BrowseInformation>true</BrowseInformation>
     </ClCompile>
     <Lib>
       <TargetMachine>MachineX86</TargetMachine>
@@ -388,7 +391,8 @@ ENDLOCAL
       <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\..\include;$(OutDir)..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(OutDir)..\..\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDataBaseFileName>
       <PreprocessorDefinitions>HAVE_CONFIG_H;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <BrowseInformationFile>$(IntDir)bsc/</BrowseInformationFile>
+      <BrowseInformationFile>$(IntDir)bsc\</BrowseInformationFile>
+      <BrowseInformation>true</BrowseInformation>
     </ClCompile>
     <Lib>
       <SubSystem>Windows</SubSystem>
@@ -450,7 +454,8 @@ ENDLOCAL
       <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\..\include;$(OutDir)..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(IntDir)$(TargetName).pdb</ProgramDataBaseFileName>
       <PreprocessorDefinitions>HAVE_CONFIG_H;_DEBUG;_WINDOWS;_USRDLL;WIN32;DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <BrowseInformationFile>$(IntDir)bsc/</BrowseInformationFile>
+      <BrowseInformationFile>$(IntDir)bsc\</BrowseInformationFile>
+      <BrowseInformation>true</BrowseInformation>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -518,7 +523,8 @@ ENDLOCAL
       <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\..\include;$(OutDir)..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(IntDir)$(TargetName).pdb</ProgramDataBaseFileName>
       <PreprocessorDefinitions>HAVE_CONFIG_H;_DEBUG;_WINDOWS;_USRDLL;WIN32;DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <BrowseInformationFile>$(IntDir)bsc/</BrowseInformationFile>
+      <BrowseInformationFile>$(IntDir)bsc\</BrowseInformationFile>
+      <BrowseInformation>true</BrowseInformation>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -587,7 +593,8 @@ ENDLOCAL
       <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\..\include;$(OutDir)..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(IntDir)$(TargetName).pdb</ProgramDataBaseFileName>
       <PreprocessorDefinitions>HAVE_CONFIG_H;WIN32;NDEBUG;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <BrowseInformationFile>$(IntDir)bsc/</BrowseInformationFile>
+      <BrowseInformationFile>$(IntDir)bsc\</BrowseInformationFile>
+      <BrowseInformation>true</BrowseInformation>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -659,7 +666,8 @@ ENDLOCAL
       <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\..\include;$(OutDir)..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(IntDir)$(TargetName).pdb</ProgramDataBaseFileName>
       <PreprocessorDefinitions>HAVE_CONFIG_H;NDEBUG;_WINDOWS;_USRDLL;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <BrowseInformationFile>$(IntDir)bsc/</BrowseInformationFile>
+      <BrowseInformationFile>$(IntDir)bsc\</BrowseInformationFile>
+      <BrowseInformation>true</BrowseInformation>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
